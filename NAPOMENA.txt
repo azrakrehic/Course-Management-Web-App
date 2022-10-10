@@ -1,0 +1,2 @@
+Za generisanje i ciscenje baze potrebno je pokrenuti priprema.js file prije pokretanja index.js
+File se nalazi u folderu modeli.

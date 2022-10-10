@@ -1,0 +1,35 @@
+body {
+	background-color: #f7e98e;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 200%;
+	background-color: #ffdb58;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+body {
+	text-align: center;
+}
+
+#f1,#f2{
+	display: inline-block;
+}
+
+select {
+	background-color: #bf94e4;
+}
+
+textarea {
+	background-color: #bf94e4;
+}
+
+input {
+	background-color: #ba55d3;
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#e7feff;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 0.5fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas:
+    "meni meni"
+    "odabirVjezbi graf"
+}
+
+#odabirVjezbe {
+  grid-area: odabirVjezbi;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 1.5%;
+  height:max-content;
+  width: 100%;
+  background-color: #7cb9e8;
+}
+
+
+.zadaci{
+  width: 100%;
+  background-color: #4f86f7;
+}
+
+
+.v {
+   display: block;
+    width: 100%;
+    padding:3%;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.zadatak {
+  padding: 1%;
+  display: inline-block;
+  margin:1%;
+  background-color: #93ccea;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+}
+
+.graf {
+  grid-area: graf; 
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+ul,li {
+    display:inline;
+    padding-bottom: 20%;
+    font-size: 120%;
+    padding-right: 20px;
+}
+
+#meni {
+  grid-area: meni;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+ 
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media only screen and (max-width:800px) {
+  .container {
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr 0.3fr;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "meni"
+    "odabirVjezbi"
+    "graf"
+
+  }
+  
+
+  
+  .graf {
+  grid-area: graf; 
+  display: grid;
+  grid-template-columns: auto;
+   }
+}
